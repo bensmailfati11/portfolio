@@ -3,50 +3,50 @@
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Fatima%20Zahra%20Bensmail&fontSize=60&animation=fadeIn&fontAlignY=35)
 
 <p align="center">
-  <a href="#features">Fonctionnalités</a> •
-  <a href="#demo">Démo</a> •
-  <a href="#screenshots">Aperçu</a> •
+  <a href="#features">Features</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#screenshots">Screenshots</a> •
   <a href="#installation">Installation</a> •
-  <a href="#tech-stack">Technologies</a>
+  <a href="#tech-stack">Tech Stack</a>
 </p>
 
 [![GitHub license](https://img.shields.io/github/license/bensmailfati11/Portfolio?style=flat-square)](LICENSE)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
-<p align="center">Un portfolio moderne et responsive présentant mon parcours professionnel, mes projets et mes compétences. Construit avec React, Vite et Tailwind CSS, intégrant des animations fluides et des éléments 3D interactifs. ✨</p>
+<p align="center">A modern and responsive portfolio showcasing my professional experience, projects, and skills. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive 3D elements. ✨</p>
 
 </div>
 
-## ✨ Fonctionnalités
+## ✨ Features
 
 <div align="center">
 
 ```mermaid
 mindmap
   root((Portfolio))
-    Interface Utilisateur
-      Design Responsive
-      Animations Fluides
-      Éléments 3D Interactifs
+    User Interface
+      Responsive Design
+      Smooth Animations
+      Interactive 3D Elements
     Sections
-      À Propos
-      Expérience
-      Projets
+      About Me
+      Experience
+      Projects
       Contact
-    Technique
-      React avec Vite
+    Technical
+      React with Vite
       Tailwind CSS
-      Intégration EmailJS
-    Intégrations
-       Contact Email
-      Vitrine de Projets
+      EmailJS Integration
+    Integrations
+       Email Contact
+      Project Showcase
 ```
 
 </div>
 
-## 🚀 Démo
+## 🚀 Demo
 
-Découvrez mon portfolio en ligne : [Lien vers la démo](https://github.com/bensmailfati11)
+Explore my portfolio online: [View Demo](https://github.com/bensmailfati11)
 
 ## 🛠️ Installation
 
@@ -101,31 +101,31 @@ npm run dev
   </tr>
 </table>
 
-## ⚡ Fonctionnalités Principales
+## ⚡ Core Features
 
-- 📱 Design Responsive
+- 📱 Responsive Design
 
-  - Approche Mobile-first
-  - Expérience fluide sur tous les appareils
-  - Mises en page et composants adaptatifs
+  - Mobile-first approach
+  - Seamless experience across all devices
+  - Adaptive layouts and components
 
-- 🎯 Contenu Dynamique
+- 🎯 Dynamic Content
 
-  - Vitrine de projets interactive
-  - Section expérience engageante
-  - Représentation animée des compétences
+  - Interactive project showcase
+  - Engaging experience section
+  - Animated skill representations
 
-- 🎨 UI/UX Moderne
+- 🎨 Modern UI/UX
 
-  - Animations fluides avec Framer Motion
-  - Navigation intuitive
-  - Design propre et professionnel
-  - Éléments 3D interactifs utilisant Three.js
+  - Smooth Framer Motion animations
+  - Intuitive navigation
+  - Clean and professional design
+  - Interactive 3D elements using Three.js
 
-- ✉️ Intégration Email
-  - Formulaire de contact utilisant EmailJS
+- ✉️ Email Integration
+  - Contact form using EmailJS
 
-## 📄 Licence
+## 📄 License
 
 <div align="center">
 
