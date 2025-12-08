@@ -10,7 +10,7 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/bensmailfati11/Portfolio?style=flat-square)](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/bensmailfati11/portfolio?style=flat-square)](LICENSE)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
 <p align="center">A modern and responsive portfolio showcasing my professional experience, projects, and skills. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive 3D elements. ✨</p>
@@ -53,13 +53,13 @@ Explore my portfolio online: [View Demo](https://github.com/bensmailfati11)
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
+git clone https://github.com/bensmailfati11/portfolio.git
 ```
 
 2️⃣ Navigate to project directory:
 
 ```bash
-cd Portfolio-Website
+cd portfolio
 ```
 
 3️⃣ Install dependencies:
