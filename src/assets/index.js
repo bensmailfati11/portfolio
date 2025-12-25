@@ -7,11 +7,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
-import mongodb from "./tech/mongodb.png";
-import express from "./tech/express.png";
-import flask from "./tech/flask.png";
-import typescript from "./tech/typescript.png";
-import sqlite from "./tech/sqlite.png";
 
 // Use tech icons for company logos
 const mathwork = nodejs;
@@ -54,11 +49,6 @@ export {
   reactjs,
   tailwind,
   threejs,
-  mongodb,
-  express,
-  flask,
-  typescript,
-  sqlite,
   taskmanager,
   portfolio,
   eventsapi,

@@ -20,11 +20,6 @@ import {
   threejs,
   mathwork,
   eduskill,
-  mongodb,
-  express,
-  flask,
-  typescript,
-  sqlite,
 } from "../assets";
 
 export const navLinks = [
@@ -53,16 +48,11 @@ export const technologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
-  { name: "TypeScript", icon: typescript },
   { name: "React JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
-  { name: "Express", icon: express },
-  { name: "MongoDB", icon: mongodb },
   { name: "Three JS", icon: threejs },
   { name: "Python", icon: python },
-  { name: "Flask", icon: flask },
-  { name: "SQLite", icon: sqlite },
   { name: "git", icon: git },
 ];
 
