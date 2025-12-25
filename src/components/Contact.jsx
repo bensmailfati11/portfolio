@@ -1,3 +1,4 @@
+// Import necessary React hooks and libraries
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -8,6 +9,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import "../index.css";
 
+// Reusable input field component - makes code cleaner and easier to maintain
 const InputField = ({ label, value, onChange, placeholder, name, type }) => (
   <label className="flex flex-col">
     <span className="text-white font-medium mb-4">{label}</span>
@@ -22,18 +24,24 @@ const InputField = ({ label, value, onChange, placeholder, name, type }) => (
   </label>
 );
 
+// Main Contact Form Component
 const Contact = () => {
   const formRef = useRef();
+  
+  // State to store form data (name, email, message)
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: "",
   });
+  
+  // State to manage loading status and error/confirmation messages
   const [loading, setLoading] = useState(false);
   const [emailError, setEmailError] = useState("");
   const [nameError, setNameError] = useState("");
   const [confirmation, setConfirmation] = useState("");
 
+  // Function to update form fields when user types
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({
@@ -42,11 +50,13 @@ const Contact = () => {
     });
   };
 
+  // Simple email validation function
   const validateEmail = (email) => {
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return regex.test(email);
   };
 
+  // Function that runs when user submits the form
   const handleSubmit = (e) => {
     e.preventDefault();
     setEmailError("");
@@ -65,18 +75,20 @@ const Contact = () => {
 
     setLoading(true);
 
+    // Send email using EmailJS - Free service to send emails from contact form
+    // Visit https://www.emailjs.com/ to create your own account and get your IDs
     emailjs
       .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
+        "service_r2i0by4",        // Your EmailJS Service ID
+        "template_mf5x3bh",       // Your EmailJS Template ID
         {
           from_name: form.name,
           to_name: "Fatima Zahra Bensmail",
           from_email: form.email,
-          to_email: "Bensmail.fatimazahra.pro@gmail.com",
+          to_email: "bensmail.fatimazahra.pro@gmail.com",
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"
+        "p-gXzzyvEhPaJ0XA-"       // Your EmailJS Public Key
       )
       .then(
         () => {
