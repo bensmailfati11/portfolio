@@ -79,8 +79,8 @@ const Contact = () => {
     // Visit https://www.emailjs.com/ to create your own account and get your IDs
     emailjs
       .send(
-        "service_r2i0by4",        // Your EmailJS Service ID
-        "template_mf5x3bh",       // Your EmailJS Template ID
+        "service_m756dnb",        // Your EmailJS Service ID
+        "template_y1nw1o8",       // Your EmailJS Template ID
         {
           from_name: form.name,
           to_name: "Fatima Zahra Bensmail",
@@ -88,7 +88,7 @@ const Contact = () => {
           to_email: "bensmail.fatimazahra.pro@gmail.com",
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"       // Your EmailJS Public Key
+        "3iGAyqOfNoB7UGQXL"       // Your EmailJS Public Key
       )
       .then(
         () => {
