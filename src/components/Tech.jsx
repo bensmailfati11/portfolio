@@ -1,12 +1,12 @@
 import React from "react";
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const renderTechnologies = () => {
   return technologies.map(({ name, icon }) => (
-    <div className="w-28 h-28" key={name}>
-      <BallCanvas icon={icon} />
+    <div className="w-28 h-28 flex flex-col items-center justify-center" key={name}>
+      <img src={icon} alt={name} className="w-20 h-20 object-contain" />
+      <p className="text-white text-sm mt-2">{name}</p>
     </div>
   ));
 };

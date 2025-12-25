@@ -17,7 +17,7 @@
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square)](https://portfolio-eight-nu-v0qypdvlqi.vercel.app)
 
-<p align="center">Portfolio personnel moderne et interactif présentant mes compétences en développement web, mes projets et mon parcours professionnel. Créé avec React, Vite, Tailwind CSS et Three.js pour une expérience utilisateur immersive. ✨</p>
+<p align="center">Portfolio personnel moderne et interactif présentant mes compétences en développement web, mes projets et mon parcours professionnel. Créé avec React, Vite et Tailwind CSS pour une expérience utilisateur immersive. ✨</p>
 
 </div>
 
@@ -43,7 +43,7 @@ mindmap
   root((Portfolio))
     Interface
       Design Responsive
-      Animations 3D
+      Animations Fluides
       Smooth Scrolling
     Sections
       About Me
@@ -55,26 +55,25 @@ mindmap
     Technologies
       React + Vite
       Tailwind CSS
-      Three.js
       Framer Motion
       EmailJS
     Features
       Contact Email
       Project Showcase
-      Interactive 3D Models
+      Interactive UI
 ```
 
 </div>
 
 ### ✨ Fonctionnalités Principales
 
-- 🎨 **Interface Moderne** : Design épuré avec animations fluides et éléments 3D interactifs
+- 🎨 **Interface Moderne** : Design épuré avec animations fluides
 - 📱 **Responsive Design** : Optimisé pour tous les appareils (mobile, tablette, desktop)
 - 🚀 **Performance** : Chargement rapide grâce à Vite et optimisations
 - 📧 **Formulaire de Contact** : Intégration EmailJS pour recevoir les messages directement
 - 💼 **Showcase de Projets** : Présentation interactive de mes réalisations
 - 🎓 **Parcours Professionnel** : Timeline des expériences et formations
-- 🛠️ **Stack Technologique** : Visualisation 3D des technologies maîtrisées
+- 🛠️ **Stack Technologique** : Visualisation des technologies maîtrisées
 
 ---
 
@@ -107,10 +106,6 @@ mindmap
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
       <br>Tailwind CSS
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js" />
-      <br>Three.js
     </td>
   </tr>
 </table>
@@ -267,8 +262,8 @@ Stack : MERN, Git (Travail d'équipe)
 Fonctionnalités : Partage d'événements, commentaires, votes (Hackathon 48h)
 
 ### 6. **Portfolio Personnel**
-Stack : React, Vite, Tailwind, Three.js  
-Fonctionnalités : Site vitrine 3D, formulaire contact EmailJS
+Stack : React, Vite, Tailwind  
+Fonctionnalités : Site vitrine responsive, formulaire contact EmailJS
 
 ---
 
