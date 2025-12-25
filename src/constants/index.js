@@ -20,6 +20,11 @@ import {
   threejs,
   mathwork,
   eduskill,
+  mongodb,
+  express,
+  flask,
+  typescript,
+  sqlite,
 } from "../assets";
 
 export const navLinks = [
@@ -39,21 +44,26 @@ export const navLinks = [
 
 export const services = [
   { title: "JavaScript", icon: javascript },
+  { title: "Python", icon: python },
   { title: "HTML5", icon: html },
   { title: "CSS3", icon: css },
-  { title: "React", icon: reactjs },
 ];
 
 export const technologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
+  { name: "TypeScript", icon: typescript },
+  { name: "React JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
+  { name: "Express", icon: express },
+  { name: "MongoDB", icon: mongodb },
   { name: "Three JS", icon: threejs },
-  { name: "git", icon: git },
   { name: "Python", icon: python },
+  { name: "Flask", icon: flask },
+  { name: "SQLite", icon: sqlite },
+  { name: "git", icon: git },
 ];
 
 export const experiences = [
@@ -95,56 +105,56 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Application Web MERN - Gestion de Tâches",
+    name: "Task Manager - Gestion de Tâches",
     description:
-      "Application complète de gestion de tâches avec système d'authentification sécurisé (JWT). Les utilisateurs peuvent créer, modifier, supprimer et organiser leurs tâches avec un tableau de bord interactif. Interface responsive adaptée à tous les écrans.",
+      "Application web de gestion de tâches développée lors de mon stage de fin d'études. Architecture Client/Server avec interface utilisateur interactive permettant de créer, modifier et supprimer des tâches. Fonctionnalités de calendrier intégrées et système de suivi des tâches terminées.",
     tags: [
-      { name: "React", color: "blue-text-gradient" },
+      { name: "JavaScript", color: "yellow-text-gradient" },
+      { name: "HTML", color: "blue-text-gradient" },
+      { name: "CSS", color: "pink-text-gradient" },
       { name: "Node.js", color: "green-text-gradient" },
-      { name: "MongoDB", color: "pink-text-gradient" },
-      { name: "Express", color: "yellow-text-gradient" },
     ],
     image: taskmanager,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/bensmailfati11/TaskManagerPFE",
   },
   {
     name: "Events Organizer API - Plateforme d'Événements",
     description:
-      "API REST complète pour la gestion d'événements en ligne. Système de création, modification et recherche d'événements avec gestion des participants. Templates Handlebars pour les vues serveur, authentification JWT et système de notifications.",
+      "API REST complète pour créer, gérer et participer à des événements. Système d'authentification avec rôles (Admin/Organizer/Member), inscription/désinscription aux événements. Architecture modulaire avec middlewares de sécurité. 3 branches disponibles : master (API pure), handlebars (templates serveur), typescript (version complète TypeScript).",
     tags: [
       { name: "Node.js", color: "green-text-gradient" },
       { name: "Express", color: "yellow-text-gradient" },
-      { name: "Handlebars", color: "blue-text-gradient" },
       { name: "MongoDB", color: "pink-text-gradient" },
+      { name: "JWT", color: "blue-text-gradient" },
     ],
     image: eventsapi,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/bensmailfati11/Event-Organizer-API",
   },
   {
-    name: "Chatbot IA - Assistant Virtuel pour Événements",
+    name: "AI Chatbot - Assistant Virtuel Intelligent",
     description:
-      "Chatbot intelligent développé lors d'un hackathon. Utilise l'IA pour répondre aux questions sur les événements, suggérer des recommandations personnalisées et aider à la navigation. Frontend React avec interface conversationnelle moderne et backend Python avec NLP.",
+      "Chatbot web propulsé par l'API OpenRouter. Interface conversationnelle simple et élégante avec animations de frappe en temps réel. Serveur Flask gérant les requêtes chat, intégration API pour réponses IA, mémoire de conversation. Architecture légère : app.py (serveur), templates HTML (interface), gestion sécurisée des clés API.",
     tags: [
-      { name: "React", color: "blue-text-gradient" },
       { name: "Python", color: "green-text-gradient" },
-      { name: "IA/NLP", color: "pink-text-gradient" },
-      { name: "Hackathon", color: "yellow-text-gradient" },
+      { name: "Flask", color: "blue-text-gradient" },
+      { name: "OpenRouter", color: "pink-text-gradient" },
+      { name: "HTML/CSS", color: "yellow-text-gradient" },
     ],
     image: chatbot,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/bensmailfati11/geeks-institute/tree/master/week_3/day_3/chatbot_project",
   },
   {
     name: "Books Library - Bibliothèque Numérique",
     description:
-      "Plateforme de gestion de bibliothèque en ligne avec catalogue de livres, système de recherche avancée et réservation. Développée en TypeScript pour garantir la qualité du code. Authentification multi-niveaux (admin/utilisateur) et gestion des emprunts.",
+      "Application web Full Stack de gestion de bibliothèque. Catalogue de livres avec recherche et filtres, système d'emprunt et de réservation. Architecture MVC avec Flask, modèles de données structurés, templates HTML dynamiques et base de données SQLite. Gestion complète du cycle de vie des livres et des emprunts.",
     tags: [
-      { name: "React", color: "blue-text-gradient" },
-      { name: "TypeScript", color: "green-text-gradient" },
-      { name: "Express", color: "yellow-text-gradient" },
-      { name: "MongoDB", color: "pink-text-gradient" },
+      { name: "Python", color: "green-text-gradient" },
+      { name: "Flask", color: "blue-text-gradient" },
+      { name: "SQLite", color: "yellow-text-gradient" },
+      { name: "HTML/CSS", color: "pink-text-gradient" },
     ],
     image: bookslibrary,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/bensmailfati11/geeks-institute/tree/master/week_2/day_5/full_stack_web_app",
   },
   {
     name: "Z-Swey3 - Plateforme Communautaire (Équipe)",
@@ -167,9 +177,10 @@ export const projects = [
       { name: "React", color: "blue-text-gradient" },
       { name: "Tailwind", color: "green-text-gradient" },
       { name: "Three.js", color: "pink-text-gradient" },
+      { name: "Vite", color: "yellow-text-gradient" },
     ],
     image: portfolio,
-    source_code_link: "https://github.com",
+    source_code_link: "https://github.com/bensmailfati11/portfolio",
   },
 ];
 
