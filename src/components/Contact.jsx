@@ -64,12 +64,12 @@ const Contact = () => {
     setConfirmation("");
 
     if (!validateEmail(form.email)) {
-      setEmailError("Veuillez entrer une adresse email valide.");
+      setEmailError("⚠️ Veuillez entrer une adresse email valide.");
       return;
     }
 
     if (!form.name.trim()) {
-      setNameError("Le nom est requis.");
+      setNameError("⚠️ Le nom est requis.");
       return;
     }
 
@@ -93,7 +93,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          setConfirmation("Merci ! Je vous répondrai dès que possible.");
+          setConfirmation("✅ Merci ! Votre message a été envoyé avec succès. Je vous répondrai dès que possible ! 🚀");
 
           setForm({
             name: "",
@@ -105,7 +105,7 @@ const Contact = () => {
       .catch((error) => {
         setLoading(false);
         console.error(error);
-        setConfirmation("Une erreur s'est produite. Veuillez réessayer.");
+        setConfirmation("❌ Une erreur s'est produite. Veuillez réessayer ou me contacter directement. 📞");
       });
   };
 
