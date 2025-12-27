@@ -13,6 +13,7 @@ import Experience from "./Experience";
 import Bootcamps from "./Bootcamps";
 import Works from "./Works";
 import Contact from "./Contact";
+import SocialLinks from "./SocialLinks";
 
 export {
   Hero,
@@ -23,6 +24,7 @@ export {
   Bootcamps,
   Works,
   Contact,
+  SocialLinks,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,
