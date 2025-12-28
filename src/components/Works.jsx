@@ -56,7 +56,13 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   );
 
   return (
-    <motion.div variants={fadeIn("up", "spring")} className="w-full sm:w-[360px]">
+    <motion.div 
+      variants={isMobile ? {} : fadeIn("up", "spring")} 
+      initial={isMobile ? {} : "hidden"}
+      whileInView={isMobile ? {} : "show"}
+      viewport={{ once: true, amount: 0.1 }}
+      className="w-full sm:w-[360px]"
+    >
       {isMobile ? (
         cardContent
       ) : (
