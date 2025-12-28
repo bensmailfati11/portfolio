@@ -19,6 +19,7 @@ const BootcampCard = ({ bootcamp }) => (
       color: "#fff",
     }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
+    date={bootcamp.date}
     iconStyle={{ background: bootcamp.iconBg }}
   >
     <div>

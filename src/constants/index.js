@@ -58,6 +58,19 @@ export const technologies = [
 
 export const experiences = [
   {
+    title: "IT en Santé Publique",
+    company_name: "Direction Régionale de la Santé et de la Protection Sociale",
+    icon: nodejs,
+    iconBg: "#161329",
+    date: "2024 - Présent",
+    points: [
+      "Saisie et gestion des données informatiques pour la Direction Régionale de la Santé (via 3STD, Settat)",
+      "Traitement et mise à jour des informations dans les systèmes de santé",
+      "Contribution à la digitalisation des services de santé publique",
+      "Pré-traitement des données et saisie d'informations dans une plateforme en ligne",
+    ],
+  },
+  {
     title: "Stage Fin d'Études – Développement Web MERN",
     company_name: "Coding Republic, Casablanca",
     icon: eduskill,
@@ -176,19 +189,30 @@ export const projects = [
 
 export const bootcamps = [
   {
-    title: "Bootcamps en Développement Web",
-    organization: "Plusieurs institutions",
+    title: "Bootcamp en Développement Web",
+    organization: "Geeks Institute Formation",
     icon: eduskill,
     iconBg: "#161329",
-    description: "Participation à plusieurs bootcamps en Développement Web pour renforcer mes compétences en frontend et backend.",
+    date: "Septembre 2025 - Présent",
+    description: "Formation intensive en Développement Web Full Stack pour renforcer mes compétences en frontend et backend.",
     skills: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "2 Hackathons",
-    organization: "Geeks Institute Formation",
+    title: "Hackathon ESSEC",
+    organization: "ESSEC Business School",
     icon: mathwork,
     iconBg: "#161329",
-    description: "Participation à 2 hackathons organisés par Geeks Institute Formation. Projets collaboratifs avec focus sur l'innovation et la résolution de problèmes.",
+    date: "Novembre 2025",
+    description: "Participation au hackathon ESSEC. Projet collaboratif avec focus sur l'innovation et la résolution de problèmes.",
     skills: ["MERN Stack", "Travail d'équipe", "Gestion de projet", "Présentation"],
+  },
+  {
+    title: "Hackathon Local",
+    organization: "Mohammedia",
+    icon: edunet,
+    iconBg: "#161329",
+    date: "Mai 2025",
+    description: "Participation au hackathon local de Mohammedia. Développement de solutions innovantes en équipe.",
+    skills: ["Développement Web", "Collaboration", "Créativité", "Problem Solving"],
   },
 ];
